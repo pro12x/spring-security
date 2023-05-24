@@ -4,7 +4,7 @@
 * [Spring Initializr](https://start.spring.io/)
 * [Spring Security](https://docs.spring.io/spring-security/reference/index.html)
 * [JWT](https://jwt.io/)
-
+* [Encryption Key Generator ](https://www.allkeysgenerator.com/Random/Security-Encryption-Key-Generator.aspx)
 
 ### Configuration of the application.properties file
 ```yaml
@@ -31,6 +31,10 @@ spring.datasource.driver-class-name = # Driver class
 spring.jpa.hibernate.ddl-auto = create-drop
 spring.jpa.show-sql = # If you want to see the schemas
 ```
+
+After configuring the application.properties or application.yml file according to your habits, it is time to make some modifications.
+
+Now, let's go to the JwtService.java file and modify the security key [256bits]
 
 ### Register
 ```json
